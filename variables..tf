@@ -1,7 +1,11 @@
 variable "bucket_name" {
-  default = "imbrayanmartinez.com-bucket"
+  type = string 
 }
 
 variable "name-static-web" {
-  default = "imbrayanmartinez.com"
+  type = string
+}
+
+variable "region" {
+  type = string
 }

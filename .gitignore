@@ -9,7 +9,7 @@
 crash.log
 crash.*
 
-# Variables files (donde podrías tener datos sensibles)
+
 *.tfvars
 *.tfvars.json
 

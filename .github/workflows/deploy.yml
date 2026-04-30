@@ -26,7 +26,7 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
 
-      - name: Terraform Init
+      - name: Terraform Init -backend-config="backend.hcl"
         # El init detectará tu bloque 'backend "s3"' automáticamente
         run: terraform init
 
